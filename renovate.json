@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "config:best-practices",
+    "group:allNonMajor",
+    "group:githubArtifactActions",
+    "schedule:earlyMondays",
+    "security:openssf-scorecard"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ],
+  "timezone": "Asia/Shanghai"
+}
