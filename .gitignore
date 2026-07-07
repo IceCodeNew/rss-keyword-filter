@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# keyword-filter runtime state
+state.json
+runner_status.json
+alert_state.json
+
+# Production config (copy from example, kept out of repo)
+ops_config.json
+rss_sources.json
+
+# keyword-filter logs
+*.log
