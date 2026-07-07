@@ -1,0 +1,19 @@
+{
+  "stale_threshold_hours": 24,
+  "sources": [
+    {
+      "name": "示例源",
+      "url": "https://example.invalid/feed.xml",
+      "lang": "zh",
+      "rules": {
+        "hit_keywords": ["预购", "抽选", "开票", "报名", "发售"],
+        "maybe_keywords": ["活动", "限时", "今日", "即将"],
+        "exclude_keywords": [],
+        "ignore_patterns": {
+          "title": ["回顾|就职|招聘|出版|掲載"],
+          "content": ["長期募集|随時受付|毎週"]
+        }
+      }
+    }
+  ]
+}
