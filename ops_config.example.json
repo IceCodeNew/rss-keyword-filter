@@ -1,0 +1,7 @@
+{
+  "state_file": "./state.json",
+  "runner_status_file": "./runner_status.json",
+  "alert_state_file": "./alert_state.json",
+  "sources_config": "./rss_sources.json",
+  "max_consecutive_failures": 3
+}
